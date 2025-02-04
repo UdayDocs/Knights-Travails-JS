@@ -3,6 +3,12 @@ Find the **shortest path** for a Knight on an 8x8 chessboard using an efficient 
 
 ---
 
+## 🎮 Live Demo  
+
+👉 [Knight's Path Finder Live Demo](https://udaydocs.github.io/Knights-Travails-JS/)  
+
+---
+
 ## Resources
 https://www.youtube.com/watch?v=cWNEl4HE2OE
 
@@ -13,12 +19,6 @@ https://www.youtube.com/watch?v=cWNEl4HE2OE
 - 📏 Shortest path calculation using BFS  
 - 📋 Dynamic input controls for start and end positions  
 - 📜 Clear, formatted results displayed step by step  
-
----
-
-## 🎮 Live Demo  
-
-👉 [Knight's Path Finder Live Demo](https://udaydocs.github.io/Knights-Travails-JS/)  
 
 ---
 
