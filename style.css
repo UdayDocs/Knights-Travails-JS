@@ -1,0 +1,85 @@
+  /* Base styles for the body */
+  body {
+    background-color: #f5f5f5d6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+
+  /* Centered header */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* Container for controls with flex layout for better alignment */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* Grouping start and end controls */
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Title for each control group */
+  .control-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  /* Container for the two inputs within a group */
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+
+  /* Styles for input fields */
+  .controls input {
+    width: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Styles for the button */
+  .controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    height: 42px;
+  }
+
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Output container with a clean, card-like appearance */
+  #output {
+    background-color: #fff;
+    white-space: pre-wrap;
+    font-family: monospace;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

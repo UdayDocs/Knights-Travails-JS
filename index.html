@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knight's Path Finder</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Knight's Shortest Path</h1>
+  
+  <div class="controls">
+    <!-- Start Position Inputs -->
+    <div class="control-group">
+      <div class="control-title">Start</div>
+      <div class="input-group">
+        <input type="number" id="startX" placeholder="X" min="0" max="7" value="0" />
+        <input type="number" id="startY" placeholder="Y" min="0" max="7" value="0" />
+      </div>
+    </div>
+
+    <!-- End Position Inputs -->
+    <div class="control-group">
+      <div class="control-title">End</div>
+      <div class="input-group">
+        <input type="number" id="endX" placeholder="X" min="0" max="7" value="1" />
+        <input type="number" id="endY" placeholder="Y" min="0" max="7" value="2" />
+      </div>
+    </div>
+
+    <!-- Button to trigger pathfinding -->
+    <button onclick="runDemo()">Find Path</button>
+  </div>
+
+  <div id="output">Results will appear here...</div>
+  
+  <script>
+    function runDemo() {
+      const start = [
+        parseInt(document.getElementById('startX').value),
+        parseInt(document.getElementById('startY').value)
+      ];
+      
+      const end = [
+        parseInt(document.getElementById('endX').value),
+        parseInt(document.getElementById('endY').value)
+      ];
+      
+      knightMoves(start, end, document.getElementById('output'));
+    }
+
+  </script>
+
+  <script src="knightMoves.js"></script>
+</body>
+</html>
