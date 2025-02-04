@@ -10,8 +10,13 @@ Find the **shortest path** for a Knight on an 8x8 chessboard using an efficient 
 ---
 
 ## Resources
-https://www.youtube.com/watch?v=cWNEl4HE2OE
 
+> **Which method is good for this problem  DFS or  BFS?**
+>
+> BFS (Breadth-First Search) because BFS explores all possible nodes at the present depth level before moving on to nodes at the next depth level. Since we want the minimum number of moves, BFS is suitable here. DFS (Depth-First Search) might get stuck exploring longer paths before finding a shorter one, so BFS is better.
+> 
+> https://www.youtube.com/watch?v=cWNEl4HE2OE
+>
 
 ## 🚀 Features  
 
